@@ -29,17 +29,6 @@ export default class extends Document<{ styleTags: ReactElement[] }> {
           <meta name="twitter:image" content="/social_image.jpg" />
           <link rel="icon" href="/favicon.png" />
           <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet"></link>
-
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170097702-1"></script>
-          <script>
-            {`
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-            
-              gtag('config', 'UA-170097702-1');
-            `}
-          </script>
         </Head>
         <body>
           <Main />

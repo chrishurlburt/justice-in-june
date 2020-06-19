@@ -1,7 +1,10 @@
 import { createGlobalStyle } from 'styled-components'
 import Head from 'next/head'
+import ReactGA from 'react-ga'
 
 import { Layout, Header, Footer } from '../components'
+
+ReactGA.initialize('UA-170097702-1')
 
 const GlobalStyle = createGlobalStyle`
   * {
