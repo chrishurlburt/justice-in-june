@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 interface Props {
   size: number
-  children: JSX.Element
+  children: string
 }
 
 const H1 = styled.h1`
