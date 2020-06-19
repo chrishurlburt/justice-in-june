@@ -6,8 +6,10 @@ import { Layout, Header, Footer } from '../components'
 
 ReactGA.initialize('UA-170097702-1')
 
-ReactGA.set({ page: window.location.pathname })
-ReactGA.pageview(window.location.pathname)
+if (typeof window !== 'undefined') {
+  ReactGA.set({ page: window.location.pathname })
+  ReactGA.pageview(window.location.pathname)
+}
 
 const GlobalStyle = createGlobalStyle`
   * {
