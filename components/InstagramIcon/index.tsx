@@ -4,7 +4,7 @@ export const InstagramIcon = () => {
       <defs>
         <path id="a" d="M.00003968.01260198H39.987381V39.9207921H.00003968z"/>
       </defs>
-      <g fill="none" fill-rule="evenodd">
+      <g fill="none" fillRule="evenodd">
         <g>
           <mask id="b" fill="#fff">
             <use xlinkHref="#a"/>

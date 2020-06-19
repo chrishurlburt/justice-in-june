@@ -53,6 +53,9 @@ export const Footer = () => {
           Follow Bryanna
         </Heading>
         <SocialWrap>
+          <SocialIcon onClick={() => window.location.href = 'https://twitter.com/Autumn_Bry'}>
+            <TwitterIcon />
+          </SocialIcon>
           <SocialIcon onClick={() => window.location.href = 'https://www.instagram.com/brybry1217/'}>
             <InstagramIcon />
           </SocialIcon>
