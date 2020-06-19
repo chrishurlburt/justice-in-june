@@ -3,6 +3,7 @@ import styled from 'styled-components'
 const Wrap = styled.div`
   width: 100%;
   overflow-x: scroll;
+  margin-bottom: 30px;
   table {
     border-spacing: 0;
     border: 1px solid black;

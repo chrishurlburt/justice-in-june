@@ -1,4 +1,4 @@
-import { Section, Heading, Table, SubNavigation } from '../components'
+import { Section, Heading, Table, SubNavigation, Footer } from '../components'
 
 const Home = () => {
   return (
@@ -13,17 +13,13 @@ const Home = () => {
 
       <SubNavigation />
 
-      <Heading size={2}>
-        Additional Resources:
-      </Heading>
-      <ul>
-        <li>
-          Most of the links in this doc were pulled from: <a href="https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/preview?pru=AAABcneJ06o*029NVeKFnJWNf24HkN_F5g" target="_blank" rel="noopener noreferrer">Anti-Racism Resources</a> and <a href="https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234" target="_blank" rel="noopener noreferrer">75 Things White People Can Do For Racial Justice</a>
-        </li>
-        <li>
-          <a href="https://docs.google.com/document/d/1QSfiqeEkHTMYT9SpCz1B3imgcylPYrCzcedn7Q7dkME/edit" target="_blank" rel="noopener noreferrer">Comprehensive Ally Resources</a>
-        </li>
-      </ul>
+
+
+      <p>
+        <strong>Additional Resources:</strong><br />
+        Most of the links in this doc were pulled from: <a href="https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/preview?pru=AAABcneJ06o*029NVeKFnJWNf24HkN_F5g" target="_blank" rel="noopener noreferrer">Anti-Racism Resources</a>, <a href="https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234" target="_blank" rel="noopener noreferrer">75 Things White People Can Do For Racial Justice</a> and <a href="https://docs.google.com/document/d/1QSfiqeEkHTMYT9SpCz1B3imgcylPYrCzcedn7Q7dkME/edit" target="_blank" rel="noopener noreferrer">Comprehensive Ally Resources</a>
+      </p>
+
       <p><strong>Important Note:</strong> This should just be the beginning. Please do not stop learning after you complete this month. Each section (10/25/45 minutes) has somewhat different material and the links under “Additional Resources” also include new content, so go above and beyond to educate yourself.</p>
       
       <p>Want to increase your impact? Find a friend, create a group, and share this content with others.</p>
@@ -38,7 +34,7 @@ const Home = () => {
       </ul>
 
       <p>
-        **If you have additional resource recommendations or see any errors in the links listed, please send them to <a href="mailto:autumngupta@gmail.com" rel="noopener noreferrer">autumngupta@gmail.com</a>.
+        If you have additional resource recommendations or see any errors in the links listed, please send them to <a href="mailto:autumngupta@gmail.com" rel="noopener noreferrer">autumngupta@gmail.com</a>.
       </p>
 
       <p>

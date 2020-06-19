@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components'
 import Head from 'next/head'
 
-import { Layout, Header } from '../components'
+import { Layout, Header, Footer } from '../components'
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -20,6 +20,17 @@ const GlobalStyle = createGlobalStyle`
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Libre Caslon Text', serif;
   }
+
+  a {
+    transition: color .2s ease-in-out;
+    color: #172435;
+    &:visited {
+      color: #172435;
+    }
+    &:hover {
+      color: #d8896a;
+    }
+  }
 `
 
 const App = ({ Component, pageProps }) => {
@@ -32,6 +43,7 @@ const App = ({ Component, pageProps }) => {
       <Layout>
         <Component {...pageProps} />
       </Layout>
+      <Footer />
       <GlobalStyle />
     </>
   )

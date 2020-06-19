@@ -19,7 +19,27 @@ export default class extends Document<{ styleTags: ReactElement[] }> {
         <Head>
           {this.props.styleTags}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <meta property="og:url" content="https://justiceinjune.org" />
+          <meta property="og:title" content="Justice in June" />
+          <meta property="og:description" content="Justice in June cultivates a community rooted in truth, inspires action and is committed to awareness." />
+          <meta property="og:image" content="/social_image.jpg" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:title" content="Justice in June" />
+          <meta name="twitter:description" content="Justice in June cultivates a community rooted in truth, inspires action and is committed to awareness." />
+          <meta name="twitter:image" content="/social_image.jpg" />
+          <link rel="icon" href="/favicon.png" />
           <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:wght@400;700&family=Work+Sans:wght@400;600&display=swap" rel="stylesheet"></link>
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170097702-1"></script>
+          <script>
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+            
+              gtag('config', 'UA-170097702-1');
+            `}
+          </script>
         </Head>
         <body>
           <Main />
