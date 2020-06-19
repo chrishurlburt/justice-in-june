@@ -98,9 +98,9 @@ const NavWrap = styled.div`
 export const Header = () => {
   return (
     <>
-      {/* <Banner>
-        <a href="" target="_blank" rel="noopener noreferrer">Read about us</a> in the Washington Post
-      </Banner> */}
+      <Banner>
+        <a href="https://www.washingtonpost.com/technology/2020/06/19/ally-syllabus-anti-racism-black-lives-matter/" target="_blank" rel="noopener noreferrer">Read about us</a> in the Washington Post
+      </Banner>
       <Wrap>
         <LogoWrap>
           <Logo />
