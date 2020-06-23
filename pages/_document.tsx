@@ -15,7 +15,7 @@ export default class extends Document<{ styleTags: ReactElement[] }> {
 
   render() {
     return (
-      <html>
+      <html lang="en">
         <Head>
           {this.props.styleTags}
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
