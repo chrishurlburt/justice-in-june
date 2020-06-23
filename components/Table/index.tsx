@@ -40,7 +40,7 @@ export const Table = ({ weekly, children }) => {
             {weekly
             ? (
               <>
-                <th></th>
+                <td></td>
                 <th>Week 1</th>
                 <th>Week 2</th>
                 <th>Week 3</th>
