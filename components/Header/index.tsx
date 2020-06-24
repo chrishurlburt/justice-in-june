@@ -18,12 +18,13 @@ const Wrap = styled.div`
   background-color: #E8D8C8;
   padding: 36px 12px;
   @media (min-width: 480px) {
-    padding: 30px 72px;
+    padding: 30px 24px;
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 1250px) {
     flex-direction: row;
     height: 150px;
     justify-content: space-between;
+    padding: 30px 24px;
   }
 `
 
@@ -78,6 +79,17 @@ const NavWrap = styled.div`
     li {
       display: inline-block;
       padding: 0 18px;
+      &:last-child {
+        background-color: #38516b;
+        padding: 12px 18px;
+        transition: background-color .2s ease-in-out;
+        &:hover {
+          background-color: #d8896a;
+        }
+        a {
+          color: #fff;
+        }
+      }
     }
     a {
       text-decoration: none;
@@ -118,6 +130,9 @@ export const Header = () => {
             </li>
             <li>
               <a href="#our-story">Our Story</a>
+            </li>
+            <li>
+              <a href="http://gofundme.com/f/justice-in-june" target="_blank" rel="noopener noreferrer">Donate</a>
             </li>
           </ul>
         </NavWrap>

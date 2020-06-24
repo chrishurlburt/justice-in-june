@@ -8,7 +8,7 @@ const Wrap = styled.div`
     align-items: center;
     margin: 0;
     padding: 0;
-    @media (min-width: 480px) {
+    @media (min-width: 668px) {
       justify-content: space-between;
       flex-direction: row;
     }
@@ -17,8 +17,22 @@ const Wrap = styled.div`
       display: inline-block;
       font-size: 24px;
       font-family: 'Libre Caslon Text', serif;
-      @media (min-width: 480px) {
+      @media (min-width: 668px) {
         padding: 0;
+      }
+      &:last-child {
+        @media (min-width: 668px) {
+          display: none;
+        }
+        background: #38516b;
+        margin-top: 24px;
+        padding: 24px 36px;
+        a {
+          color: #fff;
+          &:after {
+            display: none;
+          }
+        }
       }
     }
     a {
@@ -50,6 +64,9 @@ export const SubNavigation = () => {
         </li>
         <li>
           <a href="#45-minutes">45 minutes/day</a>
+        </li>
+        <li>
+          <a href="http://gofundme.com/f/justice-in-june" target="_blank" rel="noopener noreferrer">Donate</a>
         </li>
       </ul>
     </Wrap>

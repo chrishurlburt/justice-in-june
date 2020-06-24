@@ -17,7 +17,7 @@ const Home = () => {
 
       <p>
         <strong>Additional Resources:</strong><br />
-        Most of the links compiled here were pulled from: <a href="https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/preview?pru=AAABcneJ06o*029NVeKFnJWNf24HkN_F5g" target="_blank" rel="noopener noreferrer">Anti-Racism Resources</a>, <a href="https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234" target="_blank" rel="noopener noreferrer">75 Things White People Can Do For Racial Justice</a> and <a href="https://docs.google.com/document/d/1QSfiqeEkHTMYT9SpCz1B3imgcylPYrCzcedn7Q7dkME/edit" target="_blank" rel="noopener noreferrer">Comprehensive Ally Resources</a>
+        Most of the links compiled here were pulled from: <a href="https://docs.google.com/document/d/1BRlF2_zhNe86SGgHa6-VlBO-QgirITwCTugSfKie5Fs/preview?pru=AAABcneJ06o*029NVeKFnJWNf24HkN_F5g" target="_blank" rel="noopener noreferrer">Anti-Racism Resources</a> and <a href="https://medium.com/equality-includes-you/what-white-people-can-do-for-racial-justice-f2d18b0e0234" target="_blank" rel="noopener noreferrer">75 Things White People Can Do For Racial Justice</a>
       </p>
 
       <p><strong>Important Note:</strong> This should just be the beginning. Please do not stop learning after you complete this month. Each section (10/25/45 minutes) has somewhat different material and the links under “Additional Resources” also include new content, so go above and beyond to educate yourself.</p>
