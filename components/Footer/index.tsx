@@ -45,11 +45,11 @@ export const Footer = () => {
         <p>
           Justice in June all started with a conversation. Our friendship is based on a mutual desire to actively listen to others and consistently exercise empathy. We recognize that to truly understand the need for system level change, it takes education and information that leads to action. This resource was compiled for the purpose of providing a starting place for individuals striving to become better and more active allies. The journey does not stop at just a month. We need everyone to do their part to amplify the conversation and help us take this moment to a movement.
         </p>
-        <Heading size={4}>
+        <Heading size={2}>
           Contact us
         </Heading>
         <a href="mailto:justiceinjuneofficial@gmail.com">justiceinjuneofficial@gmail.com</a>
-        <Heading size={4}>
+        <Heading size={2}>
           Follow Bryanna
         </Heading>
         <SocialWrap>
@@ -61,7 +61,7 @@ export const Footer = () => {
           </SocialIcon>
         </SocialWrap>
 
-        <Heading size={4}>
+        <Heading size={2}>
           Follow Autumn
         </Heading>
 

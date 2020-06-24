@@ -42,12 +42,12 @@ const Home = () => {
       </p>
       
       <Section id="10-minutes">
-        <Heading size={3}>10 Minutes/Day</Heading>
+        <Heading size={2}>10 Minutes/Day</Heading>
         <p>
           Over the course of the month, you will have spent 5 hours intentionally learning how to be an active ally of the black community. (That’s less than the amount of time it takes to watch all of Tiger King ~ 5.5 hours.) Remember, the black community lives the reality of the information you will learn- they have a lifetime of fearing for their well being versus 5 hours of you being uncomfortable. All the action items listed in the calendar have linked information below the weekly schedule (see sections Watch, Read, Listen, and Act).
         </p>
 
-        <Heading size={4}>Daily</Heading>
+        <Heading size={3}>Daily</Heading>
 
         <Table>
           <tr>
@@ -123,7 +123,7 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={4}>Weekly</Heading>
+        <Heading size={3}>Weekly</Heading>
 
         <Table weekly>
           <tr>
@@ -176,11 +176,11 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={2}>
+        <Heading size={3}>
           All the links:
         </Heading>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Watch
         </Heading>
 
@@ -191,7 +191,7 @@ const Home = () => {
           <li><a href="https://www.ted.com/talks/alice_goffman_how_we_re_priming_some_kids_for_college_and_others_for_prison?referrer=playlist-talks_to_help_you_understand_r" target="_blank" rel="noopener noreferrer">“How We’re Priming Some Kids for College and others for prison”</a> TED Talk</li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Read
         </Heading>
 
@@ -205,7 +205,7 @@ const Home = () => {
           <li><a href="http://convention.myacpa.org/houston2018/wp-content/uploads/2017/11/Guidelines-for-Effective-White-Caucuses.pdf" target="_blank" rel="noopener noreferrer">“Tips for Creating Effective White Caucus Groups”</a> developed by Craig Elliott</li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Act
         </Heading>
 
@@ -238,13 +238,13 @@ const Home = () => {
       </Section>
 
       <Section id="25-minutes">
-        <Heading size={3}>25 Minutes/Day</Heading>
+        <Heading size={2}>25 Minutes/Day</Heading>
 
         <p>
           Over the course of the month, you will have spent 12.5 hours intentionally learning how to be an active ally of the black community. (That’s less than the amount of time it takes to watch Season 24 of the Bachelor in 2020 ~ 18 hours.) Remember, the black community lives the reality of the information you will learn- they have a lifetime of fearing for their well being versus you being uncomfortable for half a day. All the action items listed in the calendar have linked information below the weekly schedule (see sections Watch, Read, Listen, and Act).
         </p>
 
-        <Heading size={4}>Daily</Heading>
+        <Heading size={3}>Daily</Heading>
 
         <Table>
           <tr>
@@ -341,7 +341,7 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={4}>Weekly</Heading>
+        <Heading size={3}>Weekly</Heading>
 
         <Table weekly>
           <tr>
@@ -414,11 +414,11 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={2}>
+        <Heading size={3}>
           All the links:
         </Heading>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Watch
         </Heading>
 
@@ -445,7 +445,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Read
         </Heading>
 
@@ -461,7 +461,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Act
         </Heading>
 
@@ -495,7 +495,7 @@ const Home = () => {
       </Section>
 
       <Section id="45-minutes">
-        <Heading size={3}>
+        <Heading size={2}>
           45 Minutes/Day
         </Heading>
 
@@ -503,7 +503,7 @@ const Home = () => {
           Over the course of the month, you will have spent 22.5 hours intentionally learning how to be an active ally of the black community. (That’s less than the amount of time it takes to watch all of Avatar: The Last Airbender ~ 30 hours.) Remember, the black community lives the reality of the information you will learn- they have a lifetime of fearing for their well being versus you being uncomfortable for less than a day. All the action items listed in the calendar have linked information below the weekly schedule (see sections Watch, Read, Listen, and Act).
         </p>
 
-        <Heading size={4}>Daily</Heading>
+        <Heading size={3}>Daily</Heading>
 
         <Table>
           <tr>
@@ -596,7 +596,7 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={4}>Weekly</Heading>
+        <Heading size={3}>Weekly</Heading>
 
         <Table weekly>
           <tr>
@@ -682,11 +682,11 @@ const Home = () => {
           </tr>
         </Table>
 
-        <Heading size={2}>
+        <Heading size={3}>
           All the links:
         </Heading>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Watch
         </Heading>
 
@@ -730,7 +730,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Read
         </Heading>
 
@@ -747,7 +747,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Listen
         </Heading>
 
@@ -768,7 +768,7 @@ const Home = () => {
           </li>
         </ul>
 
-        <Heading size={3}>
+        <Heading size={4}>
           Act
         </Heading>
 
