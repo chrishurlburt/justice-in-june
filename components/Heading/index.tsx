@@ -15,22 +15,24 @@ const H1 = styled.h1`
 `
 
 const H2 = styled.h2`
-  font-size: 24px;
-  font-weight: normal;
-`
-
-const H3 = styled.h3`
   font-size: 30px;
   font-weight: bold;
   @media (min-width: 480px) {
     font-size: 36px;
   }
 `
-
-const H4 = styled.h4`
-  font-size: 18px;
+const H3 = styled.h3`
+  font-size: 24px;
   font-weight: normal;
   text-transform: uppercase;
+`
+
+const H4 = styled.h4`
+font-size: 30px;
+font-weight: bold;
+@media (min-width: 480px) {
+  font-size: 36px;
+}
 `
 
 const SIZES = [null, H1, H2, H3, H4] 
